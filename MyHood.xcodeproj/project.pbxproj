@@ -7,15 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		DC779C4A1C7088590016D1D4 /* DetailVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC779C491C7088590016D1D4 /* DetailVC.m */; };
+		DC779C4D1C70929C0016D1D4 /* PostImageVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC779C4C1C70929C0016D1D4 /* PostImageVC.m */; };
 		DC991FFC1C704C0600FE8B30 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = DC991FFB1C704C0600FE8B30 /* main.m */; };
 		DC991FFF1C704C0600FE8B30 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = DC991FFE1C704C0600FE8B30 /* AppDelegate.m */; };
 		DC9920021C704C0600FE8B30 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9920011C704C0600FE8B30 /* ViewController.m */; };
 		DC9920051C704C0600FE8B30 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9920031C704C0600FE8B30 /* Main.storyboard */; };
 		DC9920071C704C0600FE8B30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = DC9920061C704C0600FE8B30 /* Assets.xcassets */; };
 		DC99200A1C704C0600FE8B30 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = DC9920081C704C0600FE8B30 /* LaunchScreen.storyboard */; };
+		DC9920131C704F1D00FE8B30 /* Post.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9920121C704F1D00FE8B30 /* Post.m */; };
+		DC9920161C7052CB00FE8B30 /* DataService.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9920151C7052CB00FE8B30 /* DataService.m */; };
+		DC9920191C705ED600FE8B30 /* PostCell.m in Sources */ = {isa = PBXBuildFile; fileRef = DC9920181C705ED600FE8B30 /* PostCell.m */; };
+		DC99201C1C7065E100FE8B30 /* AddPostVC.m in Sources */ = {isa = PBXBuildFile; fileRef = DC99201B1C7065E100FE8B30 /* AddPostVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		DC779C481C7088590016D1D4 /* DetailVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DetailVC.h; sourceTree = "<group>"; };
+		DC779C491C7088590016D1D4 /* DetailVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DetailVC.m; sourceTree = "<group>"; };
+		DC779C4B1C70929C0016D1D4 /* PostImageVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostImageVC.h; sourceTree = "<group>"; };
+		DC779C4C1C70929C0016D1D4 /* PostImageVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostImageVC.m; sourceTree = "<group>"; };
 		DC991FF71C704C0600FE8B30 /* MyHood.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyHood.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		DC991FFB1C704C0600FE8B30 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		DC991FFD1C704C0600FE8B30 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -26,6 +36,14 @@
 		DC9920061C704C0600FE8B30 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		DC9920091C704C0600FE8B30 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		DC99200B1C704C0600FE8B30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		DC9920111C704F1D00FE8B30 /* Post.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Post.h; sourceTree = "<group>"; };
+		DC9920121C704F1D00FE8B30 /* Post.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Post.m; sourceTree = "<group>"; };
+		DC9920141C7052CB00FE8B30 /* DataService.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataService.h; sourceTree = "<group>"; };
+		DC9920151C7052CB00FE8B30 /* DataService.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataService.m; sourceTree = "<group>"; };
+		DC9920171C705ED600FE8B30 /* PostCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = PostCell.h; sourceTree = "<group>"; };
+		DC9920181C705ED600FE8B30 /* PostCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = PostCell.m; sourceTree = "<group>"; };
+		DC99201A1C7065E100FE8B30 /* AddPostVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AddPostVC.h; sourceTree = "<group>"; };
+		DC99201B1C7065E100FE8B30 /* AddPostVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AddPostVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,13 +76,13 @@
 		DC991FF91C704C0600FE8B30 /* MyHood */ = {
 			isa = PBXGroup;
 			children = (
+				DCC9BBDE1C818E200094D6B6 /* Services */,
+				DCC9BBDD1C818DDE0094D6B6 /* Controllers */,
+				DCC9BBDC1C818DD90094D6B6 /* Views */,
+				DCC9BBDB1C818DD20094D6B6 /* Models */,
 				DC991FFD1C704C0600FE8B30 /* AppDelegate.h */,
 				DC991FFE1C704C0600FE8B30 /* AppDelegate.m */,
-				DC9920001C704C0600FE8B30 /* ViewController.h */,
-				DC9920011C704C0600FE8B30 /* ViewController.m */,
-				DC9920031C704C0600FE8B30 /* Main.storyboard */,
 				DC9920061C704C0600FE8B30 /* Assets.xcassets */,
-				DC9920081C704C0600FE8B30 /* LaunchScreen.storyboard */,
 				DC99200B1C704C0600FE8B30 /* Info.plist */,
 				DC991FFA1C704C0600FE8B30 /* Supporting Files */,
 			);
@@ -77,6 +95,50 @@
 				DC991FFB1C704C0600FE8B30 /* main.m */,
 			);
 			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		DCC9BBDB1C818DD20094D6B6 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				DC9920111C704F1D00FE8B30 /* Post.h */,
+				DC9920121C704F1D00FE8B30 /* Post.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		DCC9BBDC1C818DD90094D6B6 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				DC9920031C704C0600FE8B30 /* Main.storyboard */,
+				DC9920081C704C0600FE8B30 /* LaunchScreen.storyboard */,
+				DC9920171C705ED600FE8B30 /* PostCell.h */,
+				DC9920181C705ED600FE8B30 /* PostCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		DCC9BBDD1C818DDE0094D6B6 /* Controllers */ = {
+			isa = PBXGroup;
+			children = (
+				DC9920001C704C0600FE8B30 /* ViewController.h */,
+				DC9920011C704C0600FE8B30 /* ViewController.m */,
+				DC99201A1C7065E100FE8B30 /* AddPostVC.h */,
+				DC99201B1C7065E100FE8B30 /* AddPostVC.m */,
+				DC779C481C7088590016D1D4 /* DetailVC.h */,
+				DC779C491C7088590016D1D4 /* DetailVC.m */,
+				DC779C4B1C70929C0016D1D4 /* PostImageVC.h */,
+				DC779C4C1C70929C0016D1D4 /* PostImageVC.m */,
+			);
+			name = Controllers;
+			sourceTree = "<group>";
+		};
+		DCC9BBDE1C818E200094D6B6 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				DC9920141C7052CB00FE8B30 /* DataService.h */,
+				DC9920151C7052CB00FE8B30 /* DataService.m */,
+			);
+			name = Services;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -149,9 +211,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				DC779C4D1C70929C0016D1D4 /* PostImageVC.m in Sources */,
 				DC9920021C704C0600FE8B30 /* ViewController.m in Sources */,
+				DC779C4A1C7088590016D1D4 /* DetailVC.m in Sources */,
+				DC9920161C7052CB00FE8B30 /* DataService.m in Sources */,
 				DC991FFF1C704C0600FE8B30 /* AppDelegate.m in Sources */,
 				DC991FFC1C704C0600FE8B30 /* main.m in Sources */,
+				DC99201C1C7065E100FE8B30 /* AddPostVC.m in Sources */,
+				DC9920131C704F1D00FE8B30 /* Post.m in Sources */,
+				DC9920191C705ED600FE8B30 /* PostCell.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -300,6 +368,7 @@
 				DC9920101C704C0600FE8B30 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
